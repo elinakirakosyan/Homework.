@@ -39,7 +39,7 @@ function removeFirstRecursively (arr, i = 0) {
 	if(arr.length === 0){
   	return arr;
   }
-    if(i === arr.length) {
+    if(i === arr.length-1) {
      arr.pop();
     }
       if(i < arr.length){
