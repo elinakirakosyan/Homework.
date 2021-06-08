@@ -23,7 +23,7 @@ function isAllDigitsOdd(num) {
 //Task 3 
 
 function findViolatedIndex(arr, i = 0) {
-	if (i > arr.length) {
+	if (i >= arr.length - 1) {
   	return arr.indexOf(arr[i]);
   }
     if (arr[i] > arr[i + 1]){
