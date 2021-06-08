@@ -24,7 +24,7 @@ function isAllDigitsOdd(num) {
 
 function findViolatedIndex(arr, i = 0) {
 	if (i >= arr.length - 1) {
-  	return arr.indexOf(arr[i]);
+  	return -1;
   }
     if (arr[i] > arr[i + 1]){
           return arr.indexOf(arr[i + 1]) 
