@@ -27,7 +27,7 @@ function findViolatedIndex(arr, i = 0) {
   	return -1;
   }
     if (arr[i] > arr[i + 1]){
-          return arr.indexOf(arr[i + 1]) 
+          return arr[i + 1];
     }
     return findViolatedIndex(arr, i + 1)
 }
