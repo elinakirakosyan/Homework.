@@ -20,7 +20,7 @@ function isAllDigitsOdd(num) {
 
 
 
-//Task 3 
+//Task 2 
 
 function findViolatedIndex(arr, i = 0) {
 	if (i >= arr.length - 1) {
@@ -33,7 +33,7 @@ function findViolatedIndex(arr, i = 0) {
 }
 
 
-// Task 4
+// Task 3
 
 function removeFirstRecursively (arr, i = 0) {
 	if(arr.length === 0){
